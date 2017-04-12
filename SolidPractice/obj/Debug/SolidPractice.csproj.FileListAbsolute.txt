@@ -1,0 +1,6 @@
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\SolidPractice.exe.config
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\SolidPractice.exe
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\SolidPractice.pdb
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\obj\Debug\SolidPractice.csprojResolveAssemblyReference.cache
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\obj\Debug\SolidPractice.exe
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\obj\Debug\SolidPractice.pdb
