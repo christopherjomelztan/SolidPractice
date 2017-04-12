@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using static SolidPractice.SolidClass;
 
 namespace SolidPractice
 {
@@ -9,8 +8,8 @@ namespace SolidPractice
     {
         static void Main(string[] args)
         {
-            VolEnglishMessanger vol = new VolEnglishMessanger();
-            AreaEnglishMessanger area = new AreaEnglishMessanger();
+            VolEnglishMessenger vol = new VolEnglishMessenger();
+            AreaEnglishMessenger area = new AreaEnglishMessenger();
             AreaCalculator areaCalculator = new AreaCalculator();
             VolumeCalculator volumeCalculator = new VolumeCalculator();
 
