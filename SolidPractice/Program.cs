@@ -9,10 +9,10 @@ namespace SolidPractice
     {
         static void Main(string[] args)
         {
-            VolEnglishMessanger vol = new VolEnglishMessanger();
+            VolFrenchMessanger vol = new VolFrenchMessanger();
             AreaEnglishMessanger area = new AreaEnglishMessanger();
-            AreaCalculator areaCalculator = new AreaCalculator();
-            VolumeCalculator volumeCalculator = new VolumeCalculator();
+            AreaCalculator areaCalculator = new AreaCalculator(area);
+            VolumeCalculator volumeCalculator = new VolumeCalculator(vol);
 
             IList<IArea> iArea = new List<IArea>();
             iArea.Add(new Circle() { Width = 5 });
@@ -23,8 +23,8 @@ namespace SolidPractice
             IList<IVolume> iVolume = new List<IVolume>();
             iVolume.Add(new Cube() { Width = 5 });
 
-            area.Message(areaCalculator.CalculateArea(iArea));
-            vol.Message(volumeCalculator.CalculateVolume(iVolume));
+            areaCalculator.CalculateArea(iArea);
+            volumeCalculator.CalculateVolume(iVolume);
             Console.ReadKey();
         }
     }

@@ -124,6 +124,11 @@ namespace SolidPractice
 
         public class AreaCalculator : IAreaCalculator
         {
+            IMessanger messager;
+            public AreaCalculator(IMessanger msg)
+            {
+                messager = msg;
+            }
             public double CalculateArea(IList<IArea> shapes)
             {
                 double totalArea = 0;
@@ -131,12 +136,19 @@ namespace SolidPractice
                 {
                     totalArea += shape.GetArea();
                 }
+                messager.Message(totalArea);
                 return totalArea;
             }
         }
 
         public class VolumeCalculator : IVolumeCalculator
         {
+            IMessanger messager;
+            public VolumeCalculator(IMessanger msg)
+            {
+                messager = msg;
+            }
+
             public double CalculateVolume(IList<IVolume> shapes)
             {
                 double totalVolume = 0;
@@ -144,6 +156,7 @@ namespace SolidPractice
                 {
                     totalVolume += shape.GetVolume();
                 }
+                messager.Message(totalVolume);
                 return totalVolume;
             }
         }
@@ -168,7 +181,7 @@ namespace SolidPractice
         {
             public void Message(double area)
             {
-                Console.WriteLine("The total area is " + area);
+                Console.WriteLine("The total Area is " + area);
             }
         }
 
