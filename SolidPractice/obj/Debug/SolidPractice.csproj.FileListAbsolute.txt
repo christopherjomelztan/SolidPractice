@@ -4,3 +4,12 @@ F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPrac
 F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\obj\Debug\SolidPractice.csprojResolveAssemblyReference.cache
 F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\obj\Debug\SolidPractice.exe
 F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\obj\Debug\SolidPractice.pdb
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.xml
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
