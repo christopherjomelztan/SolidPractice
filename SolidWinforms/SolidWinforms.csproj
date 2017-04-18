@@ -68,7 +68,6 @@
     <Compile Include="frmSolidPractice.Designer.cs">
       <DependentUpon>frmSolidPractice.cs</DependentUpon>
     </Compile>
-    <Compile Include="Globals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmSolidPractice.resx">

@@ -41,7 +41,27 @@ namespace SolidWinforms
         {
             SolidPractice.Container.RegisterElements(Globals.container);
             IShapeFactory sf = Globals.container.Resolve<IShapeFactory>();
-            Globals.iArea.Add((IArea)sf.CreateShape(txtShapeName.Text, 5));
+            Globals.iArea.Add((IArea)sf.CreateShape(txtShapeName.Text, Convert.ToInt32(txtWidth.Text)));
+        }
+
+        private void txtWidth_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void frmSolidWinforms_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

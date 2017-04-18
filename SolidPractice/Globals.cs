@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SolidPractice;
 using Microsoft.Practices.Unity;
 
-namespace SolidWinforms
+namespace SolidPractice
 {
     public class Globals
     {
