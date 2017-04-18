@@ -59,7 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Factories\ShapeFactory.cs" />
+    <Compile Include="Functions\ShapeFactory.cs" />
     <Compile Include="Functions\AreaCalculator.cs" />
     <Compile Include="Functions\AreaEnglishMessenger.cs" />
     <Compile Include="Shapes\Circle.cs" />
