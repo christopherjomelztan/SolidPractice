@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DBE28133-C6B8-416D-8AEC-F4E37920F0F0}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{3D7005A5-464C-4BA4-BA84-9E450DF6A442}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SolidPractice</RootNamespace>
-    <AssemblyName>SolidPractice</AssemblyName>
+    <RootNamespace>SolidWinforms</RootNamespace>
+    <AssemblyName>SolidWinforms</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -55,39 +55,54 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Functions\ShapeFactory.cs" />
-    <Compile Include="Functions\AreaCalculator.cs" />
-    <Compile Include="Functions\AreaEnglishMessenger.cs" />
-    <Compile Include="Functions\StringAreaEnglishMessenger.cs" />
-    <Compile Include="Interfaces\IStringMessenger.cs" />
-    <Compile Include="Shapes\Circle.cs" />
-    <Compile Include="Shapes\Cube.cs" />
-    <Compile Include="Shapes\DefaultShape.cs" />
-    <Compile Include="Shapes\Equilateral_Triangle.cs" />
-    <Compile Include="Interfaces\IArea.cs" />
-    <Compile Include="Interfaces\IAreaCalculator.cs" />
-    <Compile Include="Interfaces\IMessenger.cs" />
-    <Compile Include="Interfaces\IShape.cs" />
-    <Compile Include="Interfaces\IShapeFactory.cs" />
-    <Compile Include="Interfaces\IVolume.cs" />
-    <Compile Include="Interfaces\IVolumeCalculator.cs" />
+    <Compile Include="frmSolidPractice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSolidPractice.Designer.cs">
+      <DependentUpon>frmSolidPractice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shapes\Square.cs" />
-    <Compile Include="Functions\UnityContainer.cs" />
-    <Compile Include="Functions\VolEnglishMessenger.cs" />
-    <Compile Include="Functions\VolFrenchMessenger.cs" />
-    <Compile Include="Functions\VolumeCalculator.cs" />
+    <EmbeddedResource Include="frmSolidPractice.resx">
+      <DependentUpon>frmSolidPractice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SolidPractice\SolidPractice.csproj">
+      <Project>{dbe28133-c6b8-416d-8aec-f4e37920f0f0}</Project>
+      <Name>SolidPractice</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

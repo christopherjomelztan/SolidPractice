@@ -16,7 +16,7 @@ namespace SolidPractice
                 case "Circle": return new Circle { Width = width };
                 case "Equilateral_Triange": return new Equilateral_Triangle { Width = width };
                 case "Cube": return new Cube { Width = width };
-                default: return new Square { Width = width };
+                default: throw new NotImplementedException("Undefined Shape");
             }
         }
     }
