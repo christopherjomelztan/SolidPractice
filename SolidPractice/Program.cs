@@ -16,18 +16,13 @@ namespace SolidPractice
             IMessenger areaEnglishMessenger = container.Resolve<IMessenger>("AreaEnglishMessenger");
             IAreaCalculator areaCalc = container.Resolve<IAreaCalculator>();
             IVolumeCalculator volumeCalc = container.Resolve<IVolumeCalculator>();
-
-
+            IShapeFactory sf = container.Resolve<IShapeFactory>();
 
             IList<IArea> iArea = new List<IArea>();
-            iArea.Add(new Circle() { Width = 5 });
-            iArea.Add(new Square() { Width = 6 });
-            iArea.Add(new Cube() { Width = 5 });
-
+            iArea.Add((IArea)sf.CreateShape("Cube", 5));
 
             IList<IVolume> iVolume = new List<IVolume>();
-            iVolume.Add(new Cube() { Width = 5 });
-
+            iVolume.Add((IVolume)sf.CreateShape("Cube", 5));
 
             areaEnglishMessenger.Message(areaCalc.CalculateArea(iArea));
             volEnglishMessenger.Message(volumeCalc.CalculateVolume(iVolume));

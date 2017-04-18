@@ -15,6 +15,7 @@ namespace SolidPractice
             container.RegisterType<IMessenger, AreaEnglishMessenger>("AreaEnglishMessenger");
             container.RegisterType<IAreaCalculator, AreaCalculator>();
             container.RegisterType<IVolumeCalculator, VolumeCalculator>();
+            container.RegisterType<IShapeFactory, ShapeFactory>();
         }
     }
 }
