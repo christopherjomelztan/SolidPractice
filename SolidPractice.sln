@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidPractice", "SolidPract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidWinforms", "SolidWinforms\SolidWinforms.csproj", "{3D7005A5-464C-4BA4-BA84-9E450DF6A442}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidTest", "SolidTest\SolidTest.csproj", "{9B67E67E-5312-4774-8B76-D0CD186AF23B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3D7005A5-464C-4BA4-BA84-9E450DF6A442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D7005A5-464C-4BA4-BA84-9E450DF6A442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D7005A5-464C-4BA4-BA84-9E450DF6A442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B67E67E-5312-4774-8B76-D0CD186AF23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B67E67E-5312-4774-8B76-D0CD186AF23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B67E67E-5312-4774-8B76-D0CD186AF23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B67E67E-5312-4774-8B76-D0CD186AF23B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

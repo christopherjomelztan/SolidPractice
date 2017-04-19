@@ -8,6 +8,10 @@ namespace SolidPractice
 {
     public class ShapeFactory : IShapeFactory
     {
+        public ShapeFactory()
+        {
+
+        }
         public IShape CreateShape(string type, int width)
         {
             switch (type)

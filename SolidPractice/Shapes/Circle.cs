@@ -21,7 +21,7 @@ namespace SolidPractice
 
         public double GetArea()
         {
-            double area = Math.PI * (width / 2) * (width / 2);
+            double area = Math.PI * (width / 2.0) * (width / 2.0);
             return area;
         }
     }

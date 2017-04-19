@@ -19,7 +19,7 @@ namespace SolidPractice
             IShapeFactory sf = container.Resolve<IShapeFactory>();
 
             IList<IArea> iArea = new List<IArea>();
-            iArea.Add((IArea)sf.CreateShape("Cube", 5));
+            iArea.Add((IArea)sf.CreateShape("Circle", 1));
 
             IList<IVolume> iVolume = new List<IVolume>();
             iVolume.Add((IVolume)sf.CreateShape("Cube", 5));
