@@ -18,3 +18,24 @@ F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPrac
 F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Castle.Core.xml
 F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\Moq.xml
 F:\Christopher Jomel Z. Tan Work Files\Code Repositories\SolidPractice\SolidPractice\bin\Debug\nunit.framework.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\SolidPractice.exe.config
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\obj\Debug\SolidPractice.exe
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\obj\Debug\SolidPractice.pdb
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\SolidPractice.exe
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\SolidPractice.pdb
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Castle.Core.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Moq.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\nunit.framework.dll
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Castle.Core.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\Moq.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\bin\Debug\nunit.framework.xml
+C:\Users\Christopher.Tan\Documents\GitHub\SolidPractice\SolidPractice\obj\Debug\SolidPractice.csprojResolveAssemblyReference.cache

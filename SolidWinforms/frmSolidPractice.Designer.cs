@@ -34,7 +34,9 @@
             this.txtWidth = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvwShapes = new System.Windows.Forms.ListView();
+            this.colShape = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colWidth = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // btnAdd
@@ -90,20 +92,34 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Width:";
             // 
-            // listView1
+            // lvwShapes
             // 
-            this.listView1.Location = new System.Drawing.Point(15, 64);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(565, 287);
-            this.listView1.TabIndex = 7;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lvwShapes.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colShape,
+            this.colWidth});
+            this.lvwShapes.FullRowSelect = true;
+            this.lvwShapes.GridLines = true;
+            this.lvwShapes.Location = new System.Drawing.Point(15, 64);
+            this.lvwShapes.Name = "lvwShapes";
+            this.lvwShapes.Size = new System.Drawing.Size(565, 287);
+            this.lvwShapes.TabIndex = 7;
+            this.lvwShapes.UseCompatibleStateImageBehavior = false;
+            this.lvwShapes.View = System.Windows.Forms.View.Details;
+            // 
+            // colShape
+            // 
+            this.colShape.Text = "Shape";
+            // 
+            // colWidth
+            // 
+            this.colWidth.Text = "Width";
             // 
             // frmSolidWinforms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(592, 392);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lvwShapes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtWidth);
@@ -126,7 +142,9 @@
         private System.Windows.Forms.TextBox txtWidth;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvwShapes;
+        private System.Windows.Forms.ColumnHeader colShape;
+        private System.Windows.Forms.ColumnHeader colWidth;
     }
 }
 

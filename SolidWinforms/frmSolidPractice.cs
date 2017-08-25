@@ -42,8 +42,22 @@ namespace SolidWinforms
             SolidPractice.Container.RegisterElements(Globals.container);
             IShapeFactory sf = Globals.container.Resolve<IShapeFactory>();
             Globals.iArea.Add((IArea)sf.CreateShape(txtShapeName.Text, Convert.ToInt32(txtWidth.Text)));
+            this.PrepareListView(Globals.iArea.ToList());
+            
         }
 
+        private void PrepareListView(List<IArea> areaList)
+        {
+            lvwShapes.Items.Clear();
+            foreach (IArea area in areaList)
+            {
+                ListViewItem item = new ListViewItem();
+                item.Text = area.GetType().Name;
+                item.SubItems.Add(area.GetArea().ToString());
+                this.lvwShapes.Items.Add(item);
+                
+            }
+        }
         private void txtWidth_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
